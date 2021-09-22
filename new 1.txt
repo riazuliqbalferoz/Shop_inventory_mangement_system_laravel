@@ -1,0 +1,12 @@
+Our Project Title: Automated Toy-Train using Arduino Uno.
+
+In Our project, we have used Arduino Uno(R3) Board As Micro Processor,
+Arduino Motor Shield with DC Motors(L298N) as wheel of the train,
+Sonar Sensor (HCSR04) To Measure the distance of the object or obstacle 
+and Grove 128x64 OLED Display to display messages of the situation. 
+
+When our Train is running without any Obstacles then the speed of the motor should be top (255 rmp) and in the display, the User will see messages Enjoy The Journey.
+
+If Any Obstacle is detracted by the Sonar Sensor and the position of the Obstacle is less the 50cm Then, The speed of the motor will be decreased to 180 rpm and in the display, the user will see a message like a Stoppage is nearby. By This Time when the distance is Less than 20 and greater than 10 the Motor of the train will be switched off and display a message "Can't Move Forward". 
+
+If the User moves the Obstacles/object It will move forward again.
